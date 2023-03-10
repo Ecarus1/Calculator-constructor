@@ -1,0 +1,27 @@
+.button {
+  margin: 0;
+  padding: 0;
+  height: 48px;
+  min-width: 52px;
+  background: #FFFFFF;
+  border: 1px solid #E2E3E5;
+  border-radius: 6px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+}
+
+.equals {
+  width: 232px;
+  height: 64px;
+  background: #5D5FEF;
+}
+
+.button:hover {
+  border: 2px solid #5D5FEF;
+}
+
+.button:active {
+  background: #5D5FEF;
+  color: #FFFFFF;
+}
